@@ -1,0 +1,1946 @@
+<sdf version="1.6">
+<model name="onshape">
+
+<link name="nosac_motora_1">
+<frame name="nosac_motora_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="nosac_motora_1_0_osnova_robota_visual">
+<pose>-0.200015 0.11545 0 -1.5708 2.22045e-16 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/osnova_robota.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_motora_1_0_osnova_robota_visual">
+<pose>-0.200015 0.11545 0 -1.5708 2.22045e-16 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/osnova_robota.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_motora_1_1_nosac_motora_1_visual">
+<pose>0.0129848 0.0554503 0.06 1.5708 -1.67571e-15 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_1.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_motora_1_1_nosac_motora_1_visual">
+<pose>0.0129848 0.0554503 0.06 1.5708 -1.67571e-15 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_1.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_motora_1_2_nosac_motora_3_visual">
+<pose>-0.0545536 -0.0164964 0.06 1.5708 -1.11022e-16 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_3.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_motora_1_2_nosac_motora_3_visual">
+<pose>-0.0545536 -0.0164964 0.06 1.5708 -1.11022e-16 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_3.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_motora_1_3_nosac_motora_2_visual">
+<pose>0.0415233 -0.0390131 0.06 1.5708 -1.11022e-16 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_motora_1_3_nosac_motora_2_visual">
+<pose>0.0415233 -0.0390131 0.06 1.5708 -1.11022e-16 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_motora_2.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_motora_1_4_farme_nesto_visual">
+<pose>3.08149e-32 -5.55112e-19 -0.0025 -1.5708 1.5708 0</pose>
+<geometry>
+<mesh><uri>model://delta_2/farme_nesto.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_motora_1_4_farme_nesto_visual">
+<pose>3.08149e-32 -5.55112e-19 -0.0025 -1.5708 1.5708 0</pose>
+<geometry>
+<mesh><uri>model://delta_2/farme_nesto.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="nosac_motora_1_frame">-2.91964e-06 -3.80112e-06 0.0139228 0 0 0</pose>
+<mass>1.0532</mass>
+<inertia><ixx>0.00309273</ixx><ixy>-5.64032e-07</ixy><ixz>8.27753e-08</ixz><iyy>0.00309242</iyy><iyz>1.07766e-07</iyz><izz>0.00560375</izz></inertia>
+</inertial>
+</link>
+
+<link name="ruka_1">
+<frame name="ruka_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="ruka_1_0_ruka_1_visual">
+<pose>0.0359848 0.0777475 0.0757136 -3.14159 -0.455777 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_1.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="ruka_1_0_ruka_1_visual">
+<pose>0.0359848 0.0777475 0.0757136 -3.14159 -0.455777 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_1.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="ruka_1_frame">0.0334848 0.163401 0.0982114 0 0 0</pose>
+<mass>0.288759</mass>
+<inertia><ixx>0.00110642</ixx><ixy>1.16155e-18</ixy><ixz>8.72422e-19</ixz><iyy>0.000234564</iyy><iyz>-0.00042012</iyz><izz>0.000885661</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_10">
+<frame name="lezaj_10_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_10_0_lezaj_10_visual">
+<pose>0.0279848 0.265034 0.148032 0.755714 3.79643e-16 1.46356e-15</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_10.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_10_0_lezaj_10_visual">
+<pose>0.0279848 0.265034 0.148032 0.755714 3.79643e-16 1.46356e-15</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_10.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_10_frame">0.0279848 0.265034 0.148032 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>2.00745e-07</ixx><ixy>2.05365e-22</ixy><ixz>-1.13334e-22</ixz><iyy>1.11607e-07</iyy><iyz>-4.10282e-22</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 411" type="revolute">
+<pose>0.0249848 0.265034 0.148032 -1.5708 -0.755714 1.5708</pose>
+<parent>ruka_1</parent>
+<child>lezaj_10</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<!-- dodato da veze robota za zemlju-->
+<joint name="fixed to ground" type="fixed">
+  <parent>world</parent>
+  <child>nosac_motora_1</child>
+</joint>
+
+
+<link name="lezaj_9">
+<frame name="lezaj_9_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_9_0_lezaj_9_visual">
+<pose>0.0389848 0.265034 0.148032 2.38588 -3.25979e-16 -3.14159</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_9.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_9_0_lezaj_9_visual">
+<pose>0.0389848 0.265034 0.148032 2.38588 -3.25979e-16 -3.14159</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_9.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_9_frame">0.0389848 0.265034 0.148032 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>2.00745e-07</ixx><ixy>1.64886e-22</ixy><ixz>-5.29629e-23</ixz><iyy>1.11607e-07</iyy><iyz>-1.10511e-21</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 511" type="revolute">
+<pose>0.0419848 0.265034 0.148032 1.5708 -0.755714 1.5708</pose>
+<parent>ruka_1</parent>
+<child>lezaj_9</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="osovina_1">
+<frame name="osovina_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_1_0_osovina_1_visual">
+<pose>0.00348484 0.265034 0.148032 0.794233 2.64705e-16 1.60982e-15</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_1.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_1_0_osovina_1_visual">
+<pose>0.00348484 0.265034 0.148032 0.794233 2.64705e-16 1.60982e-15</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_1.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_1_frame">0.0336353 0.265034 0.148032 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>1.75099e-08</ixx><ixy>-2.48882e-21</ixy><ixz>1.28751e-22</ixz><iyy>1.12808e-06</iyy><iyz>2.43522e-21</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+
+
+
+<link name="sferni_3">
+<frame name="sferni_3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_3_0_sferni_3_visual">
+<pose>0.0124848 0.265034 0.148032 1.5708 0.67446 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_3.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_3_0_sferni_3_visual">
+<pose>0.0124848 0.265034 0.148032 1.5708 0.67446 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_3.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_3_frame">0.0029402 0.265452 0.148366 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>4.00442e-08</ixx><ixy>6.76338e-09</ixy><ixz>5.40758e-09</ixz><iyy>1.14718e-07</iyy><iyz>-4.61439e-10</iyz><izz>1.14927e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka10.2">
+<frame name="sipka10.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka10.2_0_sipka10.2_visual">
+<pose>-0.00251516 0.263472 0.146783 3.03063 -0.67446 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka10.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka10.2_0_sipka10.2_visual">
+<pose>-0.00251516 0.263472 0.146783 3.03063 -0.67446 1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka10.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka10.2_frame">-0.00359947 0.257395 0.154384 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>5.61131e-07</ixx><ixy>-3.14225e-08</ixy><ixz>3.93009e-08</ixz><iyy>4.2765e-07</iyy><iyz>2.4988e-07</iyz><izz>3.14908e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka3">
+<frame name="sipka3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka3_0_sipka3_visual">
+<pose>-0.048469 0.00590858 0.468923 0.790597 0.888682 1.39424</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka3.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka3_0_sipka3_visual">
+<pose>-0.048469 0.00590858 0.468923 0.790597 0.888682 1.39424</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka3.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka3_frame">-0.0263222 0.130036 0.313675 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.000265813</ixx><ixy>-1.84902e-05</ixy><ixz>2.31261e-05</ixz><iyy>0.000165478</iyy><iyz>0.000129617</iyz><izz>0.000106997</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka5.2">
+<frame name="sipka5.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka5.2_0_sipka5.2_visual">
+<pose>-0.0501299 -0.00340094 0.480567 -0.111116 -0.674438 1.57105</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka5.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka5.2_0_sipka5.2_visual">
+<pose>-0.0501299 -0.00340094 0.480567 -0.111116 -0.674438 1.57105</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka5.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka5.2_frame">-0.0490456 0.00267642 0.472966 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>5.61131e-07</ixx><ixy>-3.14319e-08</ixy><ixz>3.92934e-08</ixz><iyy>4.27651e-07</iyy><iyz>2.4988e-07</iyz><izz>3.14907e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_7">
+<frame name="sferni_7_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_7_0_sferni_7_visual">
+<pose>-0.0351303 -0.00183896 0.481821 1.57121 0.674438 -1.57055</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_7.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_7_0_sferni_7_visual">
+<pose>-0.0351303 -0.00183896 0.481821 1.57121 0.674438 -1.57055</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_7.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_7_frame">-0.0446751 -0.00142127 0.482151 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>4.00408e-08</ixx><ixy>6.76429e-09</ixy><ixz>5.38313e-09</ixz><iyy>1.14718e-07</iyy><iyz>-4.59287e-10</iyz><izz>1.1493e-07</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+
+<link name="sferni_4">
+<frame name="sferni_4_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_4_0_sferni_4_visual">
+<pose>0.0547848 0.265034 0.148032 -1.5708 0.665067 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_4.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_4_0_sferni_4_visual">
+<pose>0.0547848 0.265034 0.148032 -1.5708 0.665067 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_4.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_4_frame">0.0643295 0.265455 0.148362 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>4.00442e-08</ixx><ixy>-6.81387e-09</ixy><ixz>-5.34382e-09</ixz><iyy>1.1471e-07</iyy><iyz>-4.59403e-10</iyz><izz>1.14935e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni1.2">
+<frame name="sferni1.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni1.2_0_sferni1.2_visual">
+<pose>0.0697848 0.26346 0.146798 -3.03063 0.665067 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni1.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni1.2_0_sferni1.2_visual">
+<pose>0.0697848 0.26346 0.146798 -3.03063 0.665067 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni1.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni1.2_frame">0.0687005 0.257455 0.154456 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>5.61131e-07</ixx><ixy>-3.10523e-08</ixy><ixz>3.95946e-08</ixz><iyy>4.32334e-07</iyy><iyz>2.48777e-07</iyz><izz>3.10224e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka4">
+<frame name="sipka4_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka4_0_sipka4_visual">
+<pose>0.0238303 0.00893407 0.471343 2.32509 0.897926 1.39217</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka4.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka4_0_sipka4_visual">
+<pose>0.0238303 0.00893407 0.471343 2.32509 0.897926 1.39217</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka4.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka4_frame">0.0459773 0.131597 0.314935 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.000265813</ixx><ixy>-1.82722e-05</ixy><ixz>2.32988e-05</ixz><iyy>0.000167908</iyy><iyz>0.000129045</iyz><izz>0.000104567</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka7">
+<frame name="sipka7_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka7_0_sipka7_visual">
+<pose>0.0221693 -0.000265678 0.483073 0.111113 0.665045 -1.57055</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka7.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka7_0_sipka7_visual">
+<pose>0.0221693 -0.000265678 0.483073 0.111113 0.665045 -1.57055</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka7.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka7_frame">0.0232536 0.00574002 0.475416 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>5.61131e-07</ixx><ixy>-3.10616e-08</ixy><ixz>3.95873e-08</ixz><iyy>4.32335e-07</iyy><iyz>2.48777e-07</iyz><izz>3.10223e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_10">
+<frame name="sferni_10_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_10_0_sferni_10_visual">
+<pose>0.00716967 -0.00183933 0.481834 1.57038 -0.665045 1.57104</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_10.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_10_0_sferni_10_visual">
+<pose>0.00716967 -0.00183933 0.481834 1.57038 -0.665045 1.57104</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_10.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_10_frame">0.0167144 -0.00226013 0.481507 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>4.00408e-08</ixx><ixy>6.81478e-09</ixy><ixz>5.31936e-09</ixz><iyy>1.1471e-07</iyy><iyz>-4.57233e-10</iyz><izz>1.14939e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="osovina_3">
+<frame name="osovina_3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_3_0_osovina_3_visual">
+<pose>0.0161697 -0.0018394 0.481837 -0.79628 0.000324523 3.14158</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_3.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_3_0_osovina_3_visual">
+<pose>0.0161697 -0.0018394 0.481837 -0.79628 0.000324523 3.14158</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_3.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_3_frame">-0.0139808 -0.00183914 0.481827 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>1.751e-08</ixx><ixy>9.66807e-12</ixy><ixz>-3.60406e-10</ixz><iyy>1.12808e-06</iyy><iyz>3.1375e-15</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_12">
+<frame name="lezaj_12_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_12_0_lezaj_12_visual">
+<pose>-0.0193303 -0.00183909 0.481826 2.43505 -0.000324523 -8.70548e-06</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_12.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_12_0_lezaj_12_visual">
+<pose>-0.0193303 -0.00183909 0.481826 2.43505 -0.000324523 -8.70548e-06</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_12.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_12_frame">-0.0193303 -0.00183909 0.481826 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>2.00745e-07</ixx><ixy>-7.75986e-13</ixy><ixz>2.89272e-11</ixz><iyy>1.11607e-07</iyy><iyz>-2.51826e-16</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 38" type="revolute">
+<pose>-0.0223303 -0.00183907 0.481825 1.57122 -0.706538 -1.57108</pose>
+<parent>osovina_3</parent>
+<child>lezaj_12</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="lezaj2">
+<frame name="lezaj2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj2_0_lezaj2_visual">
+<pose>-0.00833033 -0.00183919 0.481829 -0.706538 -0.000324523 -8.70548e-06</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj2_0_lezaj2_visual">
+<pose>-0.00833033 -0.00183919 0.481829 -0.706538 -0.000324523 -8.70548e-06</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj2_frame">-0.00833033 -0.00183919 0.481829 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>2.00745e-07</ixx><ixy>-7.75986e-13</ixy><ixz>2.89272e-11</ixz><iyy>1.11607e-07</iyy><iyz>-2.51826e-16</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 39" type="revolute">
+<pose>-0.00533033 -0.00183922 0.48183 1.57037 0.706538 1.57051</pose>
+<parent>osovina_3</parent>
+<child>lezaj2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+<!--dodato naknadno-->
+
+<joint name="Revolute 36" type="revolute">
+<pose>-0.0441303 -0.00183888 0.481818 1.57126 0.79628 -1.57047</pose>
+<parent>sferni_7</parent>
+<child>osovina_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 34" type="revolute">
+<pose>-0.0501294 -0.00574412 0.478693 -3.14107 -0.896358 -1.57121</pose>
+<parent>sipka5.2</parent>
+<child>sferni_7</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 30" type="revolute">
+<pose>-0.048469 0.00590858 0.468923 3.03048 -0.674438 1.57105</pose>
+<parent>sipka3</parent>
+<child>sipka5.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 6" type="revolute">
+<pose>-0.00417614 0.254163 0.158427 2.62255 -0.464635 2.29991</pose>
+<parent>sipka10.2</parent>
+<child>sipka3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 3" type="revolute">
+<pose>-0.00251516 0.261129 0.14491 2.24827 -0.0865948 -0.0694654</pose>
+<parent>sferni_3</parent>
+<child>sipka10.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 2" type="revolute">
+<pose>0.00348484 0.265034 0.148032 -1.5708 0.67446 -1.5708</pose>
+<parent>osovina_1</parent>
+<child>sferni_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+
+
+<joint name="Revolute 45" type="revolute">
+<pose>-0.0138303 -0.00183914 0.481827 1.57112 0.000181172 -1.5708</pose>
+<parent>osovina_3</parent>
+<child>nosac_lezaja_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 37" type="revolute">
+<pose>0.0161697 -0.0018394 0.481837 -1.57033 0.79628 -1.57047</pose>
+<parent>sferni_10</parent>
+<child>osovina_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 35" type="revolute">
+<pose>0.0221687 0.00209499 0.484925 0.000525888 -0.905751 -1.57122</pose>
+<parent>sipka7</parent>
+<child>sferni_10</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 31" type="revolute">
+<pose>0.0238303 0.00893407 0.471343 -3.03048 0.665045 -1.57055</pose>
+<parent>sipka4</parent>
+<child>sipka7</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 5" type="revolute">
+<pose>0.0681238 0.254261 0.158528 -2.64204 -0.471458 0.515485</pose>
+<parent>sferni1.2</parent>
+<child>sipka4</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 4" type="revolute">
+<pose>0.0697848 0.2611 0.144946 -2.23886 0.0872444 3.07294</pose>
+<parent>sferni_4</parent>
+<child>sferni1.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 1" type="revolute">
+<pose>0.0637848 0.265034 0.148032 1.5708 0.665067 -1.5708</pose>
+<parent>osovina_1</parent>
+<child>sferni_4</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 101" type="revolute">
+<pose>0.0334848 0.265034 0.148032 -1.5708 -0.794233 1.5708</pose>
+<parent>ruka_1</parent>
+<child>osovina_1</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 111" type="revolute">
+<pose>0.0249848 0.0854503 0.06 -1.5708 -0.455777 1.5708</pose>
+<parent>nosac_motora_1</parent>
+<child>ruka_1</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+
+
+
+
+
+
+<link name="ruka_2">
+<frame name="ruka_2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="ruka_2_0_ruka_2_visual">
+<pose>0.0508135 -0.0709349 0.0764416 3.14159 -0.349567 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="ruka_2_0_ruka_2_visual">
+<pose>0.0508135 -0.0709349 0.0764416 3.14159 -0.349567 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="ruka_2_frame">0.127889 -0.112548 0.0897325 0 0 0</pose>
+<mass>0.288759</mass>
+<inertia><ixx>0.000391587</ixx><ixy>0.000412708</ixy><ixz>-0.000296219</ixz><iyy>0.000868141</iyy><iyz>0.000171022</iyz><izz>0.000966916</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_6">
+<frame name="lezaj_6_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_6_0_lezaj_6_visual">
+<pose>0.217234 -0.170482 0.128498 0.723614 3.30697e-16 1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_6.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_6_0_lezaj_6_visual">
+<pose>0.217234 -0.170482 0.128498 0.723614 3.30697e-16 1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_6.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_6_frame">0.217234 -0.170482 0.128498 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33892e-07</ixx><ixy>3.85977e-08</ixy><ixz>-5.9557e-23</ixz><iyy>1.78461e-07</iyy><iyz>-4.30134e-23</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 811" type="revolute">
+<pose>0.215734 -0.17308 0.128498 -1.5708 -0.723614 2.61799</pose>
+<parent>ruka_2</parent>
+<child>lezaj_6</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="lezaj_5">
+<frame name="lezaj_5_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_5_0_lezaj_5_visual">
+<pose>0.222734 -0.160956 0.128498 -0.723614 -3.30697e-16 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_5.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_5_0_lezaj_5_visual">
+<pose>0.222734 -0.160956 0.128498 -0.723614 -3.30697e-16 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_5.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_5_frame">0.222734 -0.160956 0.128498 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33892e-07</ixx><ixy>3.85977e-08</ixy><ixz>-5.29396e-23</ixz><iyy>1.78461e-07</iyy><iyz>-4.30134e-23</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 911" type="revolute">
+<pose>0.224234 -0.158358 0.128498 -1.5708 0.723614 -0.523599</pose>
+<parent>ruka_2</parent>
+<child>lezaj_5</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="osovina_2">
+<frame name="osovina_2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_2_0_osovina_2_visual">
+<pose>0.234984 -0.139738 0.128498 -0.635458 -2.4483e-16 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_2.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_2_0_osovina_2_visual">
+<pose>0.234984 -0.139738 0.128498 -0.635458 -2.4483e-16 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_2_frame">0.219909 -0.165849 0.128498 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>8.50439e-07</ixx><ixy>-4.80892e-07</ixy><ixz>1.79995e-21</ixz><iyy>2.95153e-07</iyy><iyz>2.2764e-21</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+
+
+<link name="sferni_1">
+<frame name="sferni_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_1_0_sferni_1_visual">
+<pose>0.230484 -0.147532 0.128498 -1.5708 -0.615706 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_1.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_1_0_sferni_1_visual">
+<pose>0.230484 -0.147532 0.128498 -1.5708 -0.615706 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_1.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_1_frame">0.234878 -0.139048 0.128189 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>1.02132e-07</ixx><ixy>-2.87771e-08</ixy><ixz>2.11426e-09</ixz><iyy>5.25772e-08</iyy><iyz>4.55411e-09</iyz><izz>1.1498e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka9">
+<frame name="sipka9_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka9_0_sipka9_visual">
+<pose>0.239398 -0.135358 0.129653 -3.13556 0.615706 2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka9.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka9_0_sipka9_visual">
+<pose>0.239398 -0.135358 0.129653 -3.13556 0.615706 2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka9.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka9_frame">0.23453 -0.132479 0.137647 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.84078e-07</ixx><ixy>4.93063e-08</ixy><ixz>2.10344e-07</ixz><iyy>5.37335e-07</iyy><iyz>-1.24041e-07</iyz><izz>2.82276e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka6">
+<frame name="sipka6_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka6_0_sipka6_visual">
+<pose>0.0330866 -0.0133545 0.468439 -2.28727 0.955065 -0.53404</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka6.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka6_0_sipka6_visual">
+<pose>0.0330866 -0.0133545 0.468439 -2.28727 0.955065 -0.53404</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka6.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka6_frame">0.132514 -0.0721511 0.305169 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.000202618</ixx><ixy>3.93215e-05</ixy><ixz>0.00010919</ixz><iyy>0.000245859</iyy><iyz>-6.45699e-05</iyz><izz>8.9811e-05</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka8">
+<frame name="sipka8_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka8_0_sipka8_visual">
+<pose>0.0256295 -0.00894472 0.480684 -0.00589505 -0.615707 -0.523833</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka8.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka8_0_sipka8_visual">
+<pose>0.0256295 -0.00894472 0.480684 -0.00589505 -0.615707 -0.523833</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka8.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka8_frame">0.0304976 -0.0118235 0.47269 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.8407e-07</ixx><ixy>4.93017e-08</ixy><ixz>2.10341e-07</ixz><iyy>5.37343e-07</iyy><iyz>-1.24047e-07</iyz><izz>2.82276e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_9">
+<frame name="sferni_9_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_9_0_sferni_9_visual">
+<pose>0.0195432 -0.0227517 0.481834 1.57041 0.615707 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_9.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_9_0_sferni_9_visual">
+<pose>0.0195432 -0.0227517 0.481834 1.57041 0.615707 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_9.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_9_frame">0.0246936 -0.0147042 0.482146 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>8.98879e-08</ixx><ixy>-3.58451e-08</ixy><ixz>-2.9008e-09</ixz><iyy>6.48244e-08</iyy><iyz>-4.12762e-09</iyz><izz>1.14977e-07</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+<link name="sferni_2">
+<frame name="sferni_2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_2_0_sferni_2_visual">
+<pose>0.209334 -0.184165 0.128498 -1.5708 0.606436 2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_2_0_sferni_2_visual">
+<pose>0.209334 -0.184165 0.128498 -1.5708 0.606436 2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_2_frame">0.204942 -0.192651 0.128803 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>1.02166e-07</ixx><ixy>-2.87505e-08</ixy><ixz>2.08398e-09</ixz><iyy>5.25353e-08</iyy><iyz>4.49567e-09</iyz><izz>1.14988e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka2.2">
+<frame name="sipka2.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka2.2_0_sipka2.2_visual">
+<pose>0.200411 -0.196334 0.127358 3.13556 -0.606436 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka2.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka2.2_0_sipka2.2_visual">
+<pose>0.200411 -0.196334 0.127358 3.13556 -0.606436 -0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka2.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka2.2_frame">0.195607 -0.193492 0.135404 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.87444e-07</ixx><ixy>4.73421e-08</ixy><ixz>2.08916e-07</ixz><iyy>5.38481e-07</iyy><iyz>-1.23234e-07</iyz><izz>2.77764e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka1">
+<frame name="sipka1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka1_0_sipka1_visual">
+<pose>-0.00317183 -0.0759056 0.468351 0.710852 0.964334 -0.534179</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka1.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka1_0_sipka1_visual">
+<pose>-0.00317183 -0.0759056 0.468351 0.710852 0.964334 -0.534179</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka1.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka1_frame">0.0949403 -0.133944 0.304018 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.000204366</ixx><ixy>3.83002e-05</ixy><ixz>0.000108447</ixz><iyy>0.000246456</iyy><iyz>-6.41516e-05</iyz><izz>8.74665e-05</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka3.2">
+<frame name="sipka3.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka3.2_0_sipka3.2_visual">
+<pose>-0.0105302 -0.0715527 0.480676 0.00589934 0.606437 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka3.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka3.2_0_sipka3.2_visual">
+<pose>-0.0105302 -0.0715527 0.480676 0.00589934 0.606437 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka3.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka3.2_frame">-0.00572658 -0.0743943 0.47263 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.87436e-07</ixx><ixy>4.73374e-08</ixy><ixz>2.08913e-07</ixz><iyy>5.38489e-07</iyy><iyz>-1.23239e-07</iyz><izz>2.77764e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_5">
+<frame name="sferni_5_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_5_0_sferni_5_visual">
+<pose>-0.00160711 -0.0593844 0.481821 -1.57118 0.606437 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_5.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_5_0_sferni_5_visual">
+<pose>-0.00160711 -0.0593844 0.481821 -1.57118 0.606437 2.61776</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_5.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_5_frame">-0.00599908 -0.06787 0.482123 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>1.02164e-07</ixx><ixy>-2.87523e-08</ixy><ixz>2.07403e-09</ixz><iyy>5.25333e-08</iyy><iyz>4.47381e-09</iyz><izz>1.14991e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="osovina_4">
+<frame name="osovina_4_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_4_0_osovina_4_visual">
+<pose>-0.00610718 -0.0671786 0.481818 -3.04673 -0.000319161 1.04719</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_4.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_4_0_osovina_4_visual">
+<pose>-0.00610718 -0.0671786 0.481818 -3.04673 -0.000319161 1.04719</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_4.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_4_frame">0.0089683 -0.0410676 0.481828 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>8.50431e-07</ixx><ixy>-4.80897e-07</ixy><ixz>-1.77228e-10</ixz><iyy>2.95161e-07</iyy><iyz>-3.06962e-10</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_11">
+<frame name="lezaj_11_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_11_0_lezaj_11_visual">
+<pose>0.0116431 -0.0364349 0.481829 2.59085 0.000319161 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_11.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_11_0_lezaj_11_visual">
+<pose>0.0116431 -0.0364349 0.481829 2.59085 0.000319161 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_11.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_11_frame">0.0116431 -0.0364349 0.481829 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33893e-07</ixx><ixy>3.85981e-08</ixy><ixz>1.42248e-11</ixz><iyy>1.7846e-07</iyy><iyz>2.46377e-11</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 42" type="revolute">
+<pose>0.0131431 -0.0338368 0.48183 1.57042 -0.550745 2.61818</pose>
+<parent>osovina_4</parent>
+<child>lezaj_11</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="lezaj_4">
+<frame name="lezaj_4_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_4_0_lezaj_4_visual">
+<pose>0.00614301 -0.0459611 0.481826 -0.420591 0.000319161 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_4.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_4_0_lezaj_4_visual">
+<pose>0.00614301 -0.0459611 0.481826 -0.420591 0.000319161 -2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_4.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_4_frame">0.00614301 -0.0459611 0.481826 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33893e-07</ixx><ixy>3.85981e-08</ixy><ixz>1.42248e-11</ixz><iyy>1.7846e-07</iyy><iyz>2.46377e-11</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 43" type="revolute">
+<pose>0.00464298 -0.0485592 0.481825 1.57115 0.420591 -0.523465</pose>
+<parent>osovina_4</parent>
+<child>lezaj_4</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+<joint name="Revolute 44" type="revolute">
+<pose>0.00889305 -0.041198 0.481828 1.57112 -0.000190459 -0.523607</pose>
+<parent>osovina_4</parent>
+<child>nosac_lezaja_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 41" type="revolute">
+<pose>-0.00610718 -0.0671786 0.481818 1.57112 0.0948624 -0.523577</pose>
+<parent>sferni_5</parent>
+<child>osovina_4</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 33" type="revolute">
+<pose>-0.0126647 -0.0703197 0.478966 -3.14103 0.964359 -0.523147</pose>
+<parent>sipka3.2</parent>
+<child>sferni_5</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 28" type="revolute">
+<pose>-0.00317183 -0.0759056 0.468351 -3.13569 0.606437 2.61776</pose>
+<parent>sipka1</parent>
+<child>sipka3.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 12" type="revolute">
+<pose>0.193052 -0.191981 0.139683 2.65763 -0.381044 0.420897</pose>
+<parent>sipka2.2</parent>
+<child>sipka1</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 10" type="revolute">
+<pose>0.198276 -0.195101 0.125648 2.17724 -0.00495511 -2.09783</pose>
+<parent>sferni_2</parent>
+<child>sipka2.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 7" type="revolute">
+<pose>0.204834 -0.191959 0.128498 1.5708 0.606436 2.61799</pose>
+<parent>osovina_2</parent>
+<child>sferni_2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 1111" type="revolute">
+<pose>0.219984 -0.165719 0.128498 -1.5708 0.635458 -0.523599</pose>
+<parent>ruka_2</parent>
+<child>osovina_2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 211" type="revolute">
+<pose>0.0615041 -0.0644054 0.06 -1.5708 -0.349567 -0.523599</pose>
+<parent>nosac_motora_1</parent>
+<child>ruka_2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+<!--dodato naknadno-->
+
+<joint name="Revolute 40" type="revolute">
+<pose>0.0240433 -0.0149575 0.481837 -1.57048 0.0948624 -0.523577</pose>
+<parent>sferni_9</parent>
+<child>osovina_4</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 32" type="revolute">
+<pose>0.0235088 -0.00771967 0.478952 3.14104 -0.955089 2.61844</pose>
+<parent>sipka8</parent>
+<child>sferni_9</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 29" type="revolute">
+<pose>0.0330866 -0.0133545 0.468439 3.1357 -0.615707 -0.523833</pose>
+<parent>sipka6</parent>
+<child>sipka8</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 11" type="revolute">
+<pose>0.231941 -0.130948 0.141899 -2.70664 0.45065 -2.85795</pose>
+<parent>sipka9</parent>
+<child>sipka6</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 9" type="revolute">
+<pose>0.241519 -0.136583 0.131386 0.955082 0.00492304 1.04371</pose>
+<parent>sferni_1</parent>
+<child>sipka9</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 8" type="revolute">
+<pose>0.234984 -0.139738 0.128498 1.5708 -0.615706 -0.523599</pose>
+<parent>osovina_2</parent>
+<child>sferni_1</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+
+
+<link name="ruka_3">
+<frame name="ruka_3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="ruka_3_0_ruka_3_visual">
+<pose>-0.0875969 -0.00901585 0.076733 -3.14159 -0.297153 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_3.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="ruka_3_0_ruka_3_visual">
+<pose>-0.0875969 -0.00901585 0.076733 -3.14159 -0.297153 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/ruka_3.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="ruka_3_frame">-0.162671 -0.0552468 0.0854186 0 0 0</pose>
+<mass>0.288759</mass>
+<inertia><ixx>0.000366419</ixx><ixy>-0.000427239</ixy><ixz>0.000257729</ixz><iyy>0.000859752</iyy><iyz>0.0001488</iyz><izz>0.00100047</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_8">
+<frame name="lezaj_8_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_8_0_lezaj_8_visual">
+<pose>-0.259149 -0.104597 0.11856 2.07894 3.28028e-17 -1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_8.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_8_0_lezaj_8_visual">
+<pose>-0.259149 -0.104597 0.11856 2.07894 3.28028e-17 -1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_8.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_8_frame">-0.259149 -0.104597 0.11856 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33892e-07</ixx><ixy>-3.85977e-08</ixy><ixz>-2.61389e-21</ixz><iyy>1.78461e-07</iyy><iyz>-1.52532e-21</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 611" type="revolute">
+<pose>-0.260649 -0.101999 0.11856 1.5708 -1.06265 -2.61799</pose>
+<parent>ruka_3</parent>
+<child>lezaj_8</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="lezaj_7">
+<frame name="lezaj_7_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_7_0_lezaj_7_visual">
+<pose>-0.253649 -0.114123 0.11856 1.06265 -7.48736e-17 2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_7.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_7_0_lezaj_7_visual">
+<pose>-0.253649 -0.114123 0.11856 1.06265 -7.48736e-17 2.0944</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_7.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_7_frame">-0.253649 -0.114123 0.11856 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33892e-07</ixx><ixy>-3.85977e-08</ixy><ixz>-9.26442e-23</ixz><iyy>1.78461e-07</iyy><iyz>-3.97047e-23</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 711" type="revolute">
+<pose>-0.252149 -0.116722 0.11856 -1.5708 -1.06265 -2.61799</pose>
+<parent>ruka_3</parent>
+<child>lezaj_7</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="osovina_6">
+<frame name="osovina_6_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_6_0_osovina_6_visual">
+<pose>-0.271399 -0.0833795 0.11856 1.09366 -1.09422e-16 -1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_6.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_6_0_osovina_6_visual">
+<pose>-0.271399 -0.0833795 0.11856 1.09366 -1.09422e-16 -1.0472</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_6.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_6_frame">-0.256323 -0.109491 0.11856 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>8.50439e-07</ixx><ixy>4.80892e-07</ixy><ixz>2.5358e-20</ixz><iyy>2.95153e-07</iyy><iyz>1.59613e-20</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+<link name="sferni_13">
+<frame name="sferni_13_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_13_0_sferni_13_visual">
+<pose>-0.245749 -0.127807 0.11856 1.5708 0.553512 0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_13.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_13_0_sferni_13_visual">
+<pose>-0.245749 -0.127807 0.11856 1.5708 0.553512 0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_13.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_13_frame">-0.24137 -0.1363 0.118841 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>1.02349e-07</ixx><ixy>2.86051e-08</ixy><ixz>-1.90964e-09</ixz><iyy>5.23063e-08</iyy><iyz>4.15373e-09</iyz><izz>1.15034e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka10">
+<frame name="sipka10_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka10_0_sipka10_visual">
+<pose>-0.236775 -0.139946 0.117508 3.02366 -0.553512 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka10.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka10_0_sipka10_visual">
+<pose>-0.236775 -0.139946 0.117508 3.02366 -0.553512 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka10.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka10_frame">-0.231772 -0.138388 0.125781 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.80331e-07</ixx><ixy>-1.81505e-08</ixy><ixz>-2.20851e-07</ixz><iyy>5.66143e-07</iyy><iyz>-7.50333e-08</iyz><izz>2.57215e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka2">
+<frame name="sipka2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka2_0_sipka2_visual">
+<pose>-0.024745 -0.0739108 0.46809 0.586709 1.00614 -2.83967</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka2.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka2_0_sipka2_visual">
+<pose>-0.024745 -0.0739108 0.46809 0.586709 1.00614 -2.83967</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka2_frame">-0.126929 -0.105735 0.299135 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.000198881</ixx><ixy>-2.18728e-05</ixy><ixz>-0.000116123</ixz><iyy>0.0002623</iyy><iyz>-3.61657e-05</iyz><izz>7.71072e-05</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka12">
+<frame name="sipka12_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka12_0_sipka12_visual">
+<pose>-0.0170812 -0.071524 0.480762 0.117921 0.553513 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka12.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka12_0_sipka12_visual">
+<pose>-0.0170812 -0.071524 0.480762 0.117921 0.553513 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka12.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka12_frame">-0.0220842 -0.0730821 0.47249 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.80332e-07</ixx><ixy>-1.81509e-08</ixy><ixz>-2.20851e-07</ixz><iyy>5.66142e-07</iyy><iyz>-7.50334e-08</iyz><izz>2.57215e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_11">
+<frame name="sferni_11_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_11_0_sferni_11_visual">
+<pose>-0.0260545 -0.0593842 0.481813 1.57079 0.553513 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_11.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_11_0_sferni_11_visual">
+<pose>-0.0260545 -0.0593842 0.481813 1.57079 0.553513 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_11.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_11_frame">-0.0216762 -0.0678776 0.482094 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>1.02349e-07</ixx><ixy>2.86047e-08</ixy><ixz>-1.90977e-09</ixz><iyy>5.23059e-08</iyy><iyz>4.15412e-09</iyz><izz>1.15034e-07</izz></inertia>
+</inertial>
+</link>
+
+
+
+
+
+<link name="sferni_12">
+<frame name="sferni_12_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_12_0_sferni_12_visual">
+<pose>-0.266899 -0.0911738 0.11856 -1.5708 0.553514 0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_12.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_12_0_sferni_12_visual">
+<pose>-0.266899 -0.0911738 0.11856 -1.5708 0.553514 0.523599</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_12.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_12_frame">-0.272065 -0.0831353 0.118841 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>8.95897e-08</ixx><ixy>3.59715e-08</ixy><ixz>2.64242e-09</ixz><iyy>6.50653e-08</iyy><iyz>-3.73067e-09</iyz><izz>1.15034e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka6.2">
+<frame name="sipka6.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka6.2_0_sipka6.2_visual">
+<pose>-0.272925 -0.0773327 0.117508 3.02366 -0.553514 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka6.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka6.2_0_sipka6.2_visual">
+<pose>-0.272925 -0.0773327 0.117508 3.02366 -0.553514 -2.61799</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka6.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka6.2_frame">-0.267922 -0.0757746 0.125781 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.8033e-07</ixx><ixy>-1.81508e-08</ixy><ixz>-2.20851e-07</ixz><iyy>5.66143e-07</iyy><iyz>-7.50336e-08</iyz><izz>2.57216e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka5">
+<frame name="sipka5_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka5_0_sipka5_visual">
+<pose>-0.0608944 -0.0112969 0.46809 -1.00901 1.00614 -2.83967</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka5.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka5_0_sipka5_visual">
+<pose>-0.0608944 -0.0112969 0.46809 -1.00901 1.00614 -2.83967</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka5.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka5_frame">-0.163078 -0.0431218 0.299135 0 0 0</pose>
+<mass>0.0208279</mass>
+<inertia><ixx>0.00019888</ixx><ixy>-2.18732e-05</ixy><ixz>-0.000116124</ixz><iyy>0.0002623</iyy><iyz>-3.6166e-05</iyz><izz>7.7108e-05</izz></inertia>
+</inertial>
+</link>
+
+<link name="sipka4.2">
+<frame name="sipka4.2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sipka4.2_0_sipka4.2_visual">
+<pose>-0.0532307 -0.00891004 0.480761 0.117921 0.553515 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka4.2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sipka4.2_0_sipka4.2_visual">
+<pose>-0.0532307 -0.00891004 0.480761 0.117921 0.553515 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sipka4.2.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sipka4.2_frame">-0.0582337 -0.0104682 0.472489 0 0 0</pose>
+<mass>0.00532588</mass>
+<inertia><ixx>4.80331e-07</ixx><ixy>-1.81512e-08</ixy><ixz>-2.20851e-07</ixz><iyy>5.66142e-07</iyy><iyz>-7.50336e-08</iyz><izz>2.57216e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="sferni_8">
+<frame name="sferni_8_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="sferni_8_0_sferni_8_visual">
+<pose>-0.0472042 -0.0227511 0.481813 -1.5708 0.553515 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_8.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="sferni_8_0_sferni_8_visual">
+<pose>-0.0472042 -0.0227511 0.481813 -1.5708 0.553515 0.523587</pose>
+<geometry>
+<mesh><uri>model://delta_2/sferni_8.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="sferni_8_frame">-0.0523704 -0.0147126 0.482094 0 0 0</pose>
+<mass>0.00296881</mass>
+<inertia><ixx>8.95903e-08</ixx><ixy>3.59713e-08</ixy><ixz>2.64216e-09</ixz><iyy>6.50647e-08</iyy><iyz>-3.73038e-09</iyz><izz>1.15034e-07</izz></inertia>
+</inertial>
+</link>
+
+<link name="osovina_5">
+<frame name="osovina_5_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="osovina_5_0_osovina_5_visual">
+<pose>-0.0215546 -0.0671785 0.481813 -1.00384 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_5.stl</uri></mesh>
+</geometry>
+<material><ambient>1 0.94902 0.909804 1</ambient><diffuse>1 0.94902 0.909804 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="osovina_5_0_osovina_5_visual">
+<pose>-0.0215546 -0.0671785 0.481813 -1.00384 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/osovina_5.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="osovina_5_frame">-0.0366296 -0.0410673 0.481813 0 0 0</pose>
+<mass>0.00418337</mass>
+<inertia><ixx>8.50447e-07</ixx><ixy>4.80887e-07</ixy><ixz>-2.9774e-12</ixz><iyy>2.95145e-07</iyy><iyz>5.15711e-12</iyz><izz>1.12808e-06</izz></inertia>
+</inertial>
+</link>
+
+<link name="lezaj_1">
+<frame name="lezaj_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj_1_0_lezaj_1_visual">
+<pose>-0.0393044 -0.0364344 0.481813 1.76892 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_1.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj_1_0_lezaj_1_visual">
+<pose>-0.0393044 -0.0364344 0.481813 1.76892 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj_1.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj_1_frame">-0.0393044 -0.0364344 0.481813 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33891e-07</ixx><ixy>-3.85973e-08</ixy><ixz>2.38975e-13</ixz><iyy>1.78461e-07</iyy><iyz>-4.13924e-13</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 25" type="revolute">
+<pose>-0.0408043 -0.0338363 0.481813 -1.57082 -1.37267 0.523617</pose>
+<parent>osovina_5</parent>
+<child>lezaj_1</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="lezaj3">
+<frame name="lezaj3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="lezaj3_0_lezaj3_visual">
+<pose>-0.0338044 -0.0459607 0.481813 1.76892 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj3.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="lezaj3_0_lezaj3_visual">
+<pose>-0.0338044 -0.0459607 0.481813 1.76892 5.362e-06 2.09439</pose>
+<geometry>
+<mesh><uri>model://delta_2/lezaj3.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="lezaj3_frame">-0.0338044 -0.0459607 0.481813 0 0 0</pose>
+<mass>0.003996</mass>
+<inertia><ixx>1.33891e-07</ixx><ixy>-3.85973e-08</ixy><ixz>2.38975e-13</ixz><iyy>1.78461e-07</iyy><iyz>-4.13924e-13</iyz><izz>1.11607e-07</izz></inertia>
+</inertial>
+</link>
+
+<joint name="Revolute 26" type="revolute">
+<pose>-0.0323045 -0.0485588 0.481813 1.57077 -1.37267 0.523617</pose>
+<parent>osovina_5</parent>
+<child>lezaj3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<link name="nosac_lezaja_3">
+<frame name="nosac_lezaja_3_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="nosac_lezaja_3_0_nosac_lezaja_3_visual">
+<pose>-0.0418366 -0.054062 0.499809 -1.5708 -0.000371631 0.52359</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_3.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_3_0_nosac_lezaja_3_visual">
+<pose>-0.0418366 -0.054062 0.499809 -1.5708 -0.000371631 0.52359</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_3.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_lezaja_3_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_3_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="nosac_lezaja_3_frame">-0.0183971 -0.0307145 0.500768 0 0 0</pose>
+<mass>0.0814524</mass>
+<inertia><ixx>2.45194e-05</ixx><ixy>-4.07786e-06</ixy><ixz>-4.52342e-06</ixz><iyy>2.92282e-05</iyy><iyz>-2.61146e-06</iyz><izz>4.48121e-05</izz></inertia>
+</inertial>
+
+<!-- proba-->
+<frame name="nosac_lezaja_2_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="nosac_lezaja_2_0_nosac_lezaja_2_visual">
+<pose>-0.0223361 0.00915767 0.499827 -1.57047 0.000181172 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_2.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_2_0_nosac_lezaja_2_visual">
+<pose>-0.0223361 0.00915767 0.499827 -1.57047 0.000181172 -1.5708</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_2.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_lezaja_2_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_2_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="nosac_lezaja_2_frame">-0.0138367 -0.0228159 0.500771 0 0 0</pose>
+<mass>0.0814524</mass>
+<inertia><ixx>3.15826e-05</ixx><ixy>-1.77299e-09</ixy><ixz>-4.24978e-09</ixz><iyy>2.21593e-05</iyy><iyz>5.2106e-06</iyz><izz>4.48178e-05</izz></inertia>
+</inertial>
+
+
+<frame name="nosac_lezaja_1_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="nosac_lezaja_1_0_nosac_lezaja_1_visual">
+<pose>-0.00488909 -0.0430623 0.499823 -1.57048 -0.000190459 -0.523607</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_1.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_1_0_nosac_lezaja_1_visual">
+<pose>-0.00488909 -0.0430623 0.499823 -1.57048 -0.000190459 -0.523607</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_lezaja_1.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="nosac_lezaja_1_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+<material><ambient>0.866667 0.909804 1 1</ambient><diffuse>0.866667 0.909804 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="nosac_lezaja_1_1_nosac_alata_visual">
+<pose>-0.0588392 -0.0540633 0.507803 3.14127 -0.000181172 1.57079</pose>
+<geometry>
+<mesh><uri>model://delta_2/nosac_alata.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="nosac_lezaja_1_frame">-0.0092764 -0.0307146 0.500771 0 0 0</pose>
+<mass>0.0814524</mass>
+<inertia><ixx>2.45137e-05</ixx><ixy>4.07963e-06</ixy><ixz>4.5102e-06</ixz><iyy>2.92281e-05</iyy><iyz>-2.60889e-06</iyz><izz>4.48179e-05</izz></inertia>
+</inertial>
+
+
+</link>
+
+<joint name="Revolute 27" type="revolute">
+<pose>-0.0365544 -0.0411976 0.481813 1.57079 -0.000371631 0.52359</pose>
+<parent>osovina_5</parent>
+<child>nosac_lezaja_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 24" type="revolute">
+<pose>-0.0517042 -0.0149569 0.481813 1.57081 1.00384 -2.61799</pose>
+<parent>sferni_8</parent>
+<child>osovina_5</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 22" type="revolute">
+<pose>-0.0510205 -0.00763404 0.479184 -3.14158 1.01728 -2.61799</pose>
+<parent>sipka4.2</parent>
+<child>sferni_8</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 19" type="revolute">
+<pose>-0.0608944 -0.0112969 0.46809 -3.02367 0.553515 0.523587</pose>
+<parent>sipka5</parent>
+<child>sipka4.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 18" type="revolute">
+<pose>-0.265261 -0.0749459 0.13018 2.81615 0.469989 -0.338437</pose>
+<parent>sipka6.2</parent>
+<child>sipka5</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 16" type="revolute">
+<pose>-0.270715 -0.0760567 0.115931 2.12743 -0.100255 2.03219</pose>
+<parent>sferni_12</parent>
+<child>sipka6.2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 13" type="revolute">
+<pose>-0.271399 -0.0833795 0.11856 1.5708 0.553514 0.523599</pose>
+<parent>osovina_6</parent>
+<child>sferni_12</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+
+<joint name="Revolute 23" type="revolute">
+<pose>-0.0215546 -0.0671785 0.481813 -1.57079 1.00384 -2.61799</pose>
+<parent>sferni_11</parent>
+<child>osovina_5</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 21" type="revolute">
+<pose>-0.0148711 -0.070248 0.479185 3.14158 -1.01728 0.523599</pose>
+<parent>sipka12</parent>
+<child>sferni_11</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 20" type="revolute">
+<pose>-0.024745 -0.0739108 0.46809 -3.02367 0.553513 0.523587</pose>
+<parent>sipka2</parent>
+<child>sipka12</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 17" type="revolute">
+<pose>-0.229111 -0.13756 0.13018 2.65618 -0.30077 -1.78058</pose>
+<parent>sipka10</parent>
+<child>sipka2</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 15" type="revolute">
+<pose>-0.234565 -0.13867 0.115931 2.12743 -0.100255 2.03219</pose>
+<parent>sferni_13</parent>
+<child>sipka10</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 14" type="revolute">
+<pose>-0.241249 -0.135601 0.11856 -1.5708 0.553512 0.523599</pose>
+<parent>osovina_6</parent>
+<child>sferni_13</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+<joint name="Revolute 121" type="revolute">
+<pose>-0.256399 -0.10936 0.11856 -1.5708 -1.09366 0.523599</pose>
+<parent>ruka_3</parent>
+<child>osovina_6</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+<joint name="Revolute 311" type="revolute">
+<pose>-0.0865344 -0.0211041 0.06 -1.5708 -0.297153 -2.61799</pose>
+<parent>nosac_motora_1</parent>
+<child>ruka_3</child>
+<axis>
+<xyz>0 0 1</xyz>
+<limit><effort>1</effort><velocity>20</velocity></limit>
+</axis>
+</joint>
+
+
+<!--
+<plugin name="gazebo_ros_contorl" filename="libgazebo_ros_control.so">
+  <robotNamespace>/simple_model</robotNamespace>
+  <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+ </plugin>
+-->
+<plugin name="model_control" filename="build/libmodel_control.so"/>
+
+
+</model>
+</sdf>
